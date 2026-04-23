@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fhand:
     long_description = fhand.read()
 
 setuptools.setup(
-    name="over-simplified-downloader",
+    name="riftbound-deck-converter",
     version="0.0.1",
     author="Awes",
     author_email="awes.me@proton.com",
@@ -26,7 +26,7 @@ setuptools.setup(
     python_requires=">=3.6",
     entry_points={
         "console_scripts": [
-            "download = downloader.cli:main",
+            "deck_convert = deck_converter.cli:main",
         ]
     }
 )
