@@ -24,6 +24,7 @@ setuptools.setup(
     install_requires=[],
     packages=setuptools.find_packages(),
     python_requires=">=3.6",
+    py_modules=['deck_convert'],
     entry_points={
         "console_scripts": [
             "deck_convert = deck_converter.cli:main",
