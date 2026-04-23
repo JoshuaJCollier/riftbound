@@ -25,7 +25,7 @@ def main():
         deck_converter(args.deck_list_in, args.output)
     else:
         deck_converter(args.deck_list_in)
-    print("Save successful!")
+    print("Save successful! - Github worked")
 
 if __name__ == "__main__":
     main()
